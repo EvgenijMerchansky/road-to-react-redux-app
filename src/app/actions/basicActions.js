@@ -1,7 +1,9 @@
+import * as constants from '../constants/Login-form-constants';
+
 export const addLogin = (value) => {
 
   return {
-    type: 'ADD_LOGIN',
+    type: constants.ADD_LOGIN,
     payload: value
   }
 
@@ -10,7 +12,7 @@ export const addLogin = (value) => {
 export const addPassword = (password) => {
 
   return {
-    type: 'ADD_PASSWORD',
+    type: constants.ADD_PASSWORD,
     payload: password
   }
 
@@ -19,7 +21,7 @@ export const addPassword = (password) => {
 export const done = () => {
 
   return {
-    type: 'DONE',
+    type: constants.DONE,
     payload: 'done'
   }
 

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
@@ -10,7 +10,22 @@ class PasswordInput extends Component {
 
   }
 
+  // test(){
+  //
+  //   console.log('work work work!');
+  //
+  // }
+
   render(){
+
+    // const name = 'Jenya'
+
+    // const some = this.props.userReducer;
+    // const processed = some.map((elem, index) => {
+    //
+    //   const { name, surname, age } = elem;
+    //
+    // })
 
     return(
       <div className="form__wrapper-password">
@@ -21,6 +36,12 @@ class PasswordInput extends Component {
   }
 
 }
+
+// PasswordInput.PropTypes = {
+//
+//   name: PropTypes.string.isRequired
+//
+// }
 
 const mapStateToProps = (state) => {
   return {

@@ -10,13 +10,15 @@ const ModalForm = (props) => {
 
   return(
 
-    <div className="form__wrapper" >
-      <LoginInput />
-      <PasswordInput />
-      <DoneButton />
+    <div className="form__wrapper">
+        <h1>Sign In:</h1>
+        <LoginInput />
+        <PasswordInput />
+        <DoneButton />
     </div>
 
   )
+
 }
 
 export default ModalForm;
