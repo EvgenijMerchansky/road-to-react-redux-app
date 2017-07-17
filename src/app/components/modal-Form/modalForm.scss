@@ -1,0 +1,92 @@
+*{
+  transition: all .55s;
+
+  .form{
+
+    &__wrapper{
+
+      width: 500px;
+      height: 170px;
+      margin: 150px auto;
+      background-color: #fff;
+      padding: 20px;
+      box-shadow: 0px 0px 16px -6px #000;
+
+      &-login{
+
+        input{
+
+          width: inherit;
+          width: 100%;
+          height: 50px;
+          font-size: 20px;
+          border: 1px solid #eee;
+          margin-bottom: 20px;
+          padding: 0 10px;
+          outline: none;
+
+          &:hover{
+
+            border: 1px solid #4db939;
+
+          }
+
+        }
+
+      }
+
+      &-password{
+
+        input{
+
+          width: inherit;
+          width: 100%;
+          height: 50px;
+          font-size: 20px;
+          border: 1px solid #eee;
+          margin-bottom: 20px;
+          padding: 0 10px;
+          outline: none;
+
+          &:hover{
+
+            border: 1px solid #4db939;
+
+          }
+
+        }
+
+      }
+
+      &-button{
+
+        button{
+
+          float: right;
+          outline: none;
+          border: solid 1px #fff;
+          background-color: #4db939;
+          color: #fff;
+          font-size: 17px;
+          height: 35px;
+          width: 100px;
+          cursor: pointer;
+          border-radius: 3px;
+
+          &:hover{
+
+            background-color: #fff;
+            color: #4db939;
+            border: solid 1px #4db939;
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
