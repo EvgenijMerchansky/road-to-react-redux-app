@@ -3,7 +3,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
 
-import { done } from '../../actions/basicActions';
+import { done } from '../../actions/login-actions/basicActions';
 
 class DoneButton extends Component {
   constructor(props) {
@@ -18,7 +18,7 @@ class DoneButton extends Component {
 
   render(){
 
-    const { doneValue, error, successfully } = this.props.buttonState.formReducer;
+    const { doneValue, error, successfully } = this.props.buttonState.authorizationReducer;
 
     return (
 

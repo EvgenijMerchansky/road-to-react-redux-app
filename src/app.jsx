@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import store from './store';
 
-import ModalForm from './app/components/modal-Form/modalForm';
+import Authorization from './app/components/authorization/authorization';
 
 function App(props){
 
@@ -12,7 +12,7 @@ function App(props){
 
     <div>
 
-      <ModalForm className="form" />
+      <Authorization className="form" />
 
     </div>
 

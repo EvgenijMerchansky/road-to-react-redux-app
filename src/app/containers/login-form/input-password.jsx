@@ -2,7 +2,7 @@ import React, { Component, PropTypes } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
-import { addPassword } from '../../actions/basicActions.js';
+import { addPassword } from '../../actions/login-actions/basicActions';
 
 class PasswordInput extends Component {
   constructor(props) {

@@ -1,10 +1,15 @@
 import { combineReducers } from 'redux';
 import { ConnectedRouter, routerReducer, routerMiddleware, push } from 'react-router-redux';
+import { reducer as formReducer } from 'redux-form'
 
-import formReducer from './app/AppReducers/formReducer';
+
+// console.log()
+
+import authorizationReducer from './app/AppReducers/authorizationReducer';
 
 const reducers = combineReducers({
-  formReducer
+  authorizationReducer,
+  form: formReducer
 })
 
 export default reducers;
