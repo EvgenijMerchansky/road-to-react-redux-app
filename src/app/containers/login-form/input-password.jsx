@@ -28,9 +28,7 @@ class PasswordInput extends Component {
     // })
 
     return(
-      <div className="form__wrapper-password">
-        <input placeholder="Password:" type="password" ref={(input) => {this.inputSearch = input}} onChange={() => {this.props.addPassword(this.inputSearch.value)}} />
-      </div>
+      <div>s</div>
     )
 
   }

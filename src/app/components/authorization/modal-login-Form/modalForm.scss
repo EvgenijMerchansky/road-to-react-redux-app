@@ -20,6 +20,12 @@ $shadow-color: #000;
       padding: 20px;
       box-shadow: 0px 0px 16px -6px $shadow-color;
 
+      h1{
+
+        color: $basic-color;
+
+      }
+
       &-login{
 
         input{
@@ -40,33 +46,6 @@ $shadow-color: #000;
           }
 
         }
-
-      }
-
-      &-password{
-
-        input{
-
-          width: inherit;
-          width: 100%;
-          height: 50px;
-          font-size: 20px;
-          border: 1px solid $input-color;
-          margin-bottom: 20px;
-          padding: 0 10px;
-          outline: none;
-
-          &:hover{
-
-            border: 1px solid $basic-color;
-
-          }
-
-        }
-
-      }
-
-      &-button{
 
         button{
 
@@ -104,12 +83,6 @@ $shadow-color: #000;
           font-size: 18px;
 
         }
-
-      }
-
-      h1{
-
-        color: $basic-color;
 
       }
 

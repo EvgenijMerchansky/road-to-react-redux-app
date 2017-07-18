@@ -18,11 +18,19 @@ export const addPassword = (password) => {
 
 }
 
-export const done = () => {
+export const done = (currentLogin, currentPassword) => {
+
+  // console.log(currentLogin, 'currentLogin');
+  // console.log(currentPassword, 'currentPassword');
 
   return {
+
     type: constants.DONE,
-    payload: 'done'
+    payload: {
+      currentLogin,
+      currentPassword
+    }
+
   }
 
 }

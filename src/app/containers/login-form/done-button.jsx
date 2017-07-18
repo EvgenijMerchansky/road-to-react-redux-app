@@ -23,8 +23,7 @@ class DoneButton extends Component {
     return (
 
       <div className="form__wrapper-button">
-        <span className={doneValue == false ? 'form__wrapper-button-messageError' : 'form__wrapper-button-messageSuccessfully'}>{doneValue == false ? error : successfully}</span>
-        <button onClick={::this.handleSubmit}>Done</button>
+        sd
       </div>
 
     )

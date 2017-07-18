@@ -11,16 +11,17 @@ class Register extends Component {
     super(props);
   }
 
-  submit = (e) => {
-    e.preventDefault()
+  submit = (props) => {
 
-    console.log('dadadada')
+    const checkErrors = this.props.formState.form.syncValidation.syncErrors;
+
+    const newUserData = this.props.formState.form.syncValidation.values;
+
+    this.props.getUserValues(typeof checkErrors == 'undefined' ? newUserData : null);
 
   }
 
   render(){
-
-    // console.log(this);
 
     return(
 
@@ -40,6 +41,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return bindActionCreators({
+    getUserValues
     // functions...
   },dispatch);
 }
