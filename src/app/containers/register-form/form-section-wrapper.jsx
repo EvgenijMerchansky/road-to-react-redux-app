@@ -24,8 +24,6 @@ class Register extends Component {
 
     const { messages } = this.props.formState.authorizationReducer.userWithEmail;
 
-    console.log(messages)
-
     return(
 
       <div className="form__register-wrapper">

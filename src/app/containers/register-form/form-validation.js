@@ -1,9 +1,9 @@
 const validate = values => {
   const errors = {}
-  if (!values.login) {
-    errors.login = 'Required!*'
-  } else if (values.login.length > 15) {
-    errors.login = 'Must be 15 characters or less!'
+  if (!values.name) {
+    errors.name = 'Required!*'
+  } else if (values.name.length > 15) {
+    errors.name = 'Must be 15 characters or less!'
   }
   if (!values.email) {
     errors.email = 'Required!*'

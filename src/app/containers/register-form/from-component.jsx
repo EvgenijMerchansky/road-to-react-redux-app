@@ -9,7 +9,7 @@ const SyncValidationForm = props => {
 
   return (
     <form onSubmit={handleSubmit} className="form__register-wrapper-form">
-      <Field name="login" type="text" component={renderField} label="Login" />
+      <Field name="name" type="text" component={renderField} label="Name" />
       <Field name="email" type="email" component={renderField} label="Email" />
       <Field name="password" type="password" component={renderField} label="Password" />
       <Field name="rePassword" type="password" component={renderField} label="Password again" />
