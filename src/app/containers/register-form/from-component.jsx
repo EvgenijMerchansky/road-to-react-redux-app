@@ -5,14 +5,15 @@ import validate from './form-validation';
 
 const SyncValidationForm = props => {
 
-  const { handleSubmit, submitting } = props
+  const { handleSubmit, submitting } = props;
+
   return (
     <form onSubmit={handleSubmit} className="form__register-wrapper-form">
-      <Field name="username" type="text" component={renderField} label="Username" />
+      <Field name="login" type="text" component={renderField} label="Login" />
       <Field name="email" type="email" component={renderField} label="Email" />
       <Field name="password" type="password" component={renderField} label="Password" />
       <Field name="rePassword" type="password" component={renderField} label="Password again" />
-      <div>
+      <div className="form__register-wrapper-form-btn">
         <button type="submit" disabled={submitting}>
           Submit
         </button>

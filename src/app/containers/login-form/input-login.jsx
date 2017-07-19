@@ -24,7 +24,7 @@ class LoginInput extends Component {
 
     return(
       <form className="form__wrapper-login">
-        <input placeholder="Login:" type="text" ref={(input) => {this.inputLogin = input}} />
+        <input placeholder="Email:" type="text" ref={(input) => {this.inputLogin = input}} />
         <input placeholder="Password:" type="password" ref={(input) => {this.inputPassword = input}} />
         <span className={authorized == false ? 'form__wrapper-login-messageError' : 'form__wrapper-login-messageSuccessfully'}>{authorized == false ? error : successfully}</span>
         <button onClick={::this.handleSubmit}>Done</button>

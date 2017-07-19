@@ -1,0 +1,58 @@
+$basic-color: #4db939;
+$error-color: #d20000;
+$page-color: #fff;
+$input-color: #eee;
+$shadow-color: #000;
+
+.authorization__module{
+
+  &-links{
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 60px;
+    background-color: $input-color;
+    box-shadow: 0px 0px 16px -6px $shadow-color;
+
+    a{
+
+      display: block;
+      padding: 20px;
+      border: solid 1px $input-color;
+      border-radius: 3px;
+      color: $page-color;
+      background-color: $basic-color;
+      font-size: 16px;
+      text-decoration: none;
+      outline: none;
+
+      &:hover{
+
+        background-color: $input-color;
+        color: $basic-color;
+        border: solid 1px $basic-color;
+        box-shadow: 0px 0px 16px -7px $shadow-color;
+
+      }
+
+      &:last-child{
+
+        margin-left: 10px;
+
+      }
+
+    }
+
+  }
+
+  &-paths{
+
+  // - // - //
+
+  }
+
+}

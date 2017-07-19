@@ -13,9 +13,8 @@ class Register extends Component {
 
   submit = (props) => {
 
-    const checkErrors = this.props.formState.form.syncValidation.syncErrors;
-
-    const newUserData = this.props.formState.form.syncValidation.values;
+    const checkErrors = this.props.formState.form.syncValidation.syncErrors,
+          newUserData = this.props.formState.form.syncValidation.values;
 
     this.props.getUserValues(typeof checkErrors == 'undefined' ? newUserData : null);
 
@@ -23,10 +22,15 @@ class Register extends Component {
 
   render(){
 
+    const { messages } = this.props.formState.authorizationReducer.userWithEmail;
+
+    console.log(messages)
+
     return(
 
       <div className="form__register-wrapper">
-        <SyncValidationForm onSubmit={this.submit}/>
+        <SyncValidationForm onSubmit={this.submit} />
+        <span className={this.props.formState.authorizationReducer.userWithEmail == 'Successfully!' ? 'form__register-wrapper-spanAccept' : 'form__register-wrapper-spanError'}>{this.props.formState.authorizationReducer.userWithEmail}</span>
       </div>
 
     )
