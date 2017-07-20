@@ -23,6 +23,38 @@ $shadow-color: #000;
 
     &-login{
 
+      &-adminUser{
+
+        &-link{
+
+          float: right;
+          display: block;
+          margin-top: -12px;
+          text-decoration: none;
+          text-align: center;
+          outline: none;
+          border: solid 1px $page-color;
+          background-color: $basic-color;
+          color: $page-color;
+          font-size: 17px;
+          font-weight: 400;
+          padding: 7px;
+          width: 80px;
+          cursor: pointer;
+          border-radius: 3px;
+
+          &:hover{
+
+            background-color: $page-color;
+            color: $basic-color;
+            border: solid 1px $basic-color;
+
+          }
+
+        }
+
+      }
+
       input{
 
         width: inherit;

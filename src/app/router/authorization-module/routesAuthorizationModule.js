@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import styles from './authorization.scss';
 
-import Links from './links';
+import Links from './links.jsx';
 import Routes from './routes';
 
 const RoutesModule = (props) => {
