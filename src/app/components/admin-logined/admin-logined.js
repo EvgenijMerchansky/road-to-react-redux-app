@@ -5,9 +5,7 @@ const AdminLogined = (props) => {
 
   return (
 
-    <div className="adminLogined">
-
-      admin logined page:
+    <div className="authorization__module-paths-admin">
 
       <AdminPanel />
 

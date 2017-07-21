@@ -6,9 +6,7 @@ const BasicUserLogined = (props) => {
 
   return (
 
-    <div className="basicUserLogined">
-
-      basic user logined page
+    <div className="authorization__module-paths-user">
 
       <BasicUser />
 

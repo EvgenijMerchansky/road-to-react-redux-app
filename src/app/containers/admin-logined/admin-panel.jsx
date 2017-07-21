@@ -9,12 +9,17 @@ class AdminPanel extends Component {
 
   render() {
 
+    console.log(this)
+
+    const { users } = this.props.adminPanel.authorizationReducer,
+            userList = users.map((elem,key) => <li key={key}>{elem.email}</li>);
+
     return(
 
-        <div className="adminLogined__panel">
+        <div className="authorization__module-paths-admin-item">
 
           <h1>Admin panel</h1>
-
+          <ul>{userList}</ul>
         </div>
 
     )

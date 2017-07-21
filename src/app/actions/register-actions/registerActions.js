@@ -1,6 +1,6 @@
 import * as constants from '../../constants/Login-form-constants';
 
-export const getUserValues = (UserObject, validMessage) => {
+export const getUserValues = (UserObject) => {
 
   return {
 

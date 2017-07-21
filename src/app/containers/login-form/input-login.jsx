@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import { BrowserRouter, Link, Route, Redirect } from 'react-router-dom';
 
-import { done, currentLogin, currentPassword } from '../../actions/login-actions/basicActions';
-import UserAdminSwitch from '../../router/authorization-module/userAdminSwitch';
+import { done } from '../../actions/login-actions/basicActions';
+import LoginErrors from './login-errors';
+import Successfully from './successfully-message';
 
 class LoginInput extends Component {
   constructor(props) {
@@ -11,16 +13,32 @@ class LoginInput extends Component {
 
   }
 
-  handleSubmit = (e) => {
+  postLoginData = (e) => {
 
     e.preventDefault()
     this.props.done(this.inputLogin.value, this.inputPassword.value);
 
   }
 
+  componentWillReceiveProps(nextProps){
+
+    const identAuthorized = nextProps.loginInputState.authorizationReducer.authorized,
+          isAdmin = nextProps.loginInputState.authorizationReducer.admin.authorized;
+
+          if(identAuthorized == true) {
+
+            this.props.push('/user-page');
+
+          }else if(isAdmin == true){
+
+            this.props.push('/admin-panel');
+
+          }
+  }
+
   render(){
 
-    const { authorizedLogin, authorizedPassword, error, userWithEmail } = this.props.loginInputState.authorizationReducer;
+    const { authorized } = this.props.loginInputState.authorizationReducer;
 
     return(
       <form className="form__wrapper-login">
@@ -28,19 +46,22 @@ class LoginInput extends Component {
           placeholder="Email:"
           type="text"
           ref={(input) => {this.inputLogin = input}}
-          onChange={() => {this.props.currentLogin(this.inputLogin.value)}}
         />
+
         <input
           placeholder="Password:"
           type="password"
           ref={(input) => {this.inputPassword = input}}
-          onChange={() => {this.props.currentPassword(this.inputPassword.value)}}
         />
-        <span
-          className={authorizedLogin == false || authorizedPassword == false ? 'form__wrapper-login-messageError' : 'form__wrapper-login-messageSuccessfully'}>
-          {authorizedLogin == false ? error : authorizedPassword == false ? error : ''}
-        </span>
-        <UserAdminSwitch className="adminUser__module-link"/>
+
+        { !authorized ? <LoginErrors/> : authorized == true ? <Successfully/> : '' }
+
+        <button
+          className="form__wrapper-login-adminUser-link"
+          onClick={::this.postLoginData}
+          >
+            Done
+        </button>
       </form>
     )
 
@@ -57,9 +78,6 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return bindActionCreators({
     done,
-    currentLogin,
-    currentPassword
-        // functions ...
   }, dispatch);
 
 }

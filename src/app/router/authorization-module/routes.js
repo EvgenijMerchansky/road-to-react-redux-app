@@ -6,11 +6,11 @@ import RegisterForm from './../../components/authorization/modal-register-Form/m
 import BasicUserLogined from '../../components/basic-user-logined/basic-user-logined';
 import AdminLogined from '../../components/admin-logined/admin-logined';
 
-const Routes = (props) => {
+const Routes = (props) => { //   <Route path="/signin" {...props.history} component={ModalForm}/>  - прокинуть методы которые предоставляет класс ROUTE в родителя {ModalForm} для пользования детями
   return (
 
     <div className="authorization__module-paths">
-      <Route path="/signin" component={ModalForm}/>
+      <Route path="/signin" {...props.history} component={ModalForm}/>
       <Route path="/signup" component={RegisterForm}/>
       <Route path="/user-page" component={BasicUserLogined}/>
       <Route path="/admin-panel" component={AdminLogined}/>

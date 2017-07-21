@@ -63,7 +63,57 @@ $shadow-color: #000;
 
   &-paths{
 
-  // - // - //
+    &-user{
+
+      padding: 40px;
+      height: auto;
+
+
+      &-item{
+
+        border-radius: 7px;
+        background-color: $input-color;
+
+        h1{
+
+          text-align: center;
+          color: $basic-color;
+          margin: 0;
+          padding: 20px;
+          font-weight: 300;
+
+
+        }
+
+      }
+
+    }
+
+    &-admin{
+
+      padding: 40px;
+      height: auto;
+
+      &-item{
+
+        border-radius: 7px;
+        background-color: $input-color;
+        padding: 10px;
+
+        h1{
+
+          text-align: center;
+          color: $basic-color;
+          margin: 0;
+          padding: 20px;
+          font-weight: 300;
+
+
+        }
+
+      }
+
+    }
 
   }
 

@@ -10,7 +10,7 @@ const ModalForm = (props) => {
 
     <div className="form__wrapper">
         <h1>Sign In:</h1>
-        <LoginInput />
+        <LoginInput {...props.history} />
     </div>
 
   )

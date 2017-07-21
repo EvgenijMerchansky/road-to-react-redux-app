@@ -25,8 +25,13 @@ class Register extends Component {
     return(
 
       <div className="form__register-wrapper">
-        <SyncValidationForm onSubmit={this.submit} />
-        <span className={this.props.formState.authorizationReducer.userWithEmail == 'Successfully!' ? 'form__register-wrapper-spanAccept' : 'form__register-wrapper-spanError'}>{this.props.formState.authorizationReducer.userWithEmail}</span>
+        <SyncValidationForm
+          onSubmit={this.submit}
+        />
+        <span
+          className={this.props.formState.authorizationReducer.userWithEmail == 'Successfully!' ? 'form__register-wrapper-spanAccept' : 'form__register-wrapper-spanError'}>
+          {this.props.formState.authorizationReducer.userWithEmail}
+        </span>
       </div>
 
     )
@@ -42,7 +47,6 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => {
   return bindActionCreators({
     getUserValues
-    // functions...
   },dispatch);
 }
 
