@@ -2,7 +2,9 @@ import * as constants from '../../constants/Login-form-constants';
 
 export const done = (email, password) => {
 
-  if(email == 'myAdmin' && password == '1111111'){
+  console.log(email,password);
+
+  if(email === 'myAdmin' && password === '1111111'){
 
     return {
 
@@ -28,7 +30,7 @@ export const done = (email, password) => {
 
   }
 
-}
+};
 
 export const logOut = () => {
 
@@ -39,4 +41,4 @@ export const logOut = () => {
 
   }
 
-}
+};

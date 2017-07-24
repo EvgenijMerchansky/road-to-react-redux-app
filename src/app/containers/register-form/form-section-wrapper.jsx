@@ -15,12 +15,15 @@ class Register extends Component {
 
     const checkErrors = this.props.formState.form.syncValidation.syncErrors,
           newUserData = this.props.formState.form.syncValidation.values;
+          newUserData.locations = [];
 
     this.props.getUserValues(typeof checkErrors == 'undefined' ? newUserData : null);
 
   }
 
   render(){
+
+      console.log(this)
 
     return(
 
@@ -40,7 +43,7 @@ class Register extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    formState: state
+    formState: state,
   }
 }
 

@@ -1,4 +1,5 @@
 import * as constants from '../constants/Login-form-constants';
+import update from 'immutability-helper';
 
 const initialState = {
   authorized: 'default',
@@ -7,9 +8,10 @@ const initialState = {
   admin: {
     login: 'myAdmin',
     password: '1111111',
+    locations: [],
     authorized: false
   },
-}
+};
 
 export default (state = initialState, action) => {
   switch (action.type) {
@@ -21,7 +23,7 @@ export default (state = initialState, action) => {
           elem.email === action.payload.email &&
           elem.password === action.payload.password
         )
-      })
+      });
 
       return ( individualUser[0] ?
 
@@ -34,7 +36,7 @@ export default (state = initialState, action) => {
           authorized: false,
         })
 
-      )
+      );
     break;
 
     case constants.IS_ADMIN:
@@ -44,7 +46,7 @@ export default (state = initialState, action) => {
         admin: {...state.admin,
           authorized: true
         }
-      })
+      });
     break;
 
     case constants.LOG_OUT:
@@ -64,9 +66,9 @@ export default (state = initialState, action) => {
 
       const byEmailSorting = state.users.filter(elem => elem.email === action.payload.email), // более лаконичный синтаксис записи вместо .filter((elem) => {return elem.email === action.payload.email}) если в фвп - один аргумент скобки не нужны
             totalEmail = byEmailSorting.map(elem => elem.email),
-            emailСomparison = totalEmail.toString();
+            emailProcessed = totalEmail.toString();
 
-      return emailСomparison !== action.payload.email ?
+      return emailProcessed !== action.payload.email ?
 
       Object.assign({}, state, {
 
@@ -80,6 +82,31 @@ export default (state = initialState, action) => {
         users: [...state.users], // Object.assign({}, state, {users: [...state.users, action.payload]}) - записывает в массив стейта не ломая стейт (  authorized: false )
         userWithEmail: 'This address is already busy!',
 
+      });
+    break;
+
+    case constants.DELETE_USER:
+
+      const sortUsers = state.users.filter(elem => elem.email !== action.payload);
+
+        return Object.assign({}, state, {
+
+          users: sortUsers,
+          userWithEmail: 'Successfully!',
+
+        });
+    break;
+
+    case constants.CHANGE_USER:
+
+      return update(state, {
+        sers: {
+          [action.payload.id]: {
+            name : {
+              $set : action.payload.newName
+            }
+          }
+        }
       });
     break;
 

@@ -15,21 +15,21 @@ class LoginInput extends Component {
 
   postLoginData = (e) => {
 
-    e.preventDefault()
+    e.preventDefault();
     this.props.done(this.inputLogin.value, this.inputPassword.value);
 
-  }
+  };
 
   componentWillReceiveProps(nextProps){
 
     const identAuthorized = nextProps.loginInputState.authorizationReducer.authorized,
           isAdmin = nextProps.loginInputState.authorizationReducer.admin.authorized;
 
-          if(identAuthorized == true) {
+          if(identAuthorized === true) {
 
             this.props.push('/user-page');
 
-          }else if(isAdmin == true){
+          }else if(isAdmin === true){
 
             this.props.push('/admin-panel');
 
@@ -38,7 +38,11 @@ class LoginInput extends Component {
 
   render(){
 
+      console.log(this)
+
     const { authorized } = this.props.loginInputState.authorizationReducer;
+
+      console.log(authorized)
 
     return(
       <form className="form__wrapper-login">
@@ -54,7 +58,7 @@ class LoginInput extends Component {
           ref={(input) => {this.inputPassword = input}}
         />
 
-        { !authorized ? <LoginErrors/> : authorized == true ? <Successfully/> : '' }
+        { !authorized ? <LoginErrors/> : authorized === true ? <Successfully/> : '' }
 
         <button
           className="form__wrapper-login-adminUser-link"

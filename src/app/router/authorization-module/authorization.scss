@@ -100,6 +100,113 @@ $shadow-color: #000;
         background-color: $input-color;
         padding: 10px;
 
+        a{
+
+          display: block;
+          padding: 20px;
+          border: solid 1px $input-color;
+          border-radius: 3px;
+          color: $page-color;
+          background-color: $basic-color;
+          font-size: 16px;
+          text-decoration: none;
+          outline: none;
+          width: 5%;
+          margin: 0 auto;
+          text-align: center;
+
+          &:hover{
+
+            background-color: $input-color;
+            color: $basic-color;
+            border: solid 1px $basic-color;
+            box-shadow: 0px 0px 16px -7px $shadow-color;
+
+          }
+
+        }
+
+        &-user{
+
+          border: solid 10px $page-color;
+          padding:20px;
+          border-radius: 7px;
+          background-color: #eee;
+          margin: 10px 0;
+
+          h1{
+
+            text-align: left!important;
+            padding: 20px 0!important;
+
+          }
+
+          button{
+
+            margin-top: 10px;
+            outline: none;
+            border: solid 1px $input-color;
+            background-color: #4db939;
+            color: #fff;
+            font-size: 17px;
+            height: 35px;
+            width: 100px;
+            cursor: pointer;
+            margin-top: 0;
+            border-radius: 3px;
+
+            &:hover{
+
+              background-color: $page-color;
+              color: $basic-color;
+              border: solid 1px $basic-color;
+
+            }
+
+          }
+
+          label{
+
+            color: $basic-color;
+            font-size: 18px;
+
+          }
+
+          p{
+
+            color: #8e8e8e;
+
+          }
+
+          input{
+
+            width: inherit;
+            width: 100%;
+            height: 50px;
+            font-size: 20px;
+            border: 1px solid $input-color;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            padding: 0 10px;
+            outline: none;
+
+            &:hover{
+
+              border: 1px solid $basic-color;
+
+            }
+
+          }
+
+          &:hover{
+
+            box-shadow: 0px 0px 16px -6px #000;
+            background-color: #f7f7f7;
+
+          }
+
+        }
+
         h1{
 
           text-align: center;
@@ -107,6 +214,13 @@ $shadow-color: #000;
           margin: 0;
           padding: 20px;
           font-weight: 300;
+
+
+        }
+
+        &:hover{
+
+          box-shadow: 0px 0px 16px -7px #000;
 
 
         }

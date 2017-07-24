@@ -3,7 +3,7 @@ import { applyMiddleware } from 'redux';
 import  logger  from 'redux-logger';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-import reducers from './index';
+import rootReducer from './app/AppReducers/index';
 
 // TEST MIDDLEWARE ping
 // import { ping } from './app/middlewares/ping-test-middleware';
@@ -11,6 +11,6 @@ import reducers from './index';
 // END TEST MIDDLEWARE ping
 
 const middleware = applyMiddleware(logger());
-const store = createStore(reducers,composeWithDevTools(middleware));
+const store = createStore(rootReducer,composeWithDevTools(middleware));
 
 export default store
