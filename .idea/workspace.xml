@@ -6,33 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="955887de-b99e-4ec9-bfcf-7d20ca60633b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/AppReducers/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/AppReducers/autorizationState.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/AppReducers/changeUser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/AppReducers/deleteUser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/AppReducers/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/AppReducers/logOut.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/AppReducers/registerLogIn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/AppReducers/registrationUser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/actions/map/map-action.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/components/admin-logined/admin-map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/map/map.jsx" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/index.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/containers/map/list-location.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/AppReducers/authorizationReducer.js" afterPath="$PROJECT_DIR$/src/app/AppReducers/authorizationReducer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/actions/login-actions/basicActions.js" afterPath="$PROJECT_DIR$/src/app/actions/login-actions/basicActions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/constants/Login-form-constants.js" afterPath="$PROJECT_DIR$/src/app/constants/Login-form-constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/admin-logined/admin-panel.jsx" afterPath="$PROJECT_DIR$/src/app/containers/admin-logined/admin-panel.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/basic-user-logined/basic-user-panel.jsx" afterPath="$PROJECT_DIR$/src/app/containers/basic-user-logined/basic-user-panel.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/login-form/input-login.jsx" afterPath="$PROJECT_DIR$/src/app/containers/login-form/input-login.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/register-form/form-section-wrapper.jsx" afterPath="$PROJECT_DIR$/src/app/containers/register-form/form-section-wrapper.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/containers/map/map.jsx" afterPath="$PROJECT_DIR$/src/app/containers/map/map.jsx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/router/authorization-module/authorization.scss" afterPath="$PROJECT_DIR$/src/app/router/authorization-module/authorization.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/router/authorization-module/links.jsx" afterPath="$PROJECT_DIR$/src/app/router/authorization-module/links.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/router/authorization-module/routes.js" afterPath="$PROJECT_DIR$/src/app/router/authorization-module/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store.js" afterPath="$PROJECT_DIR$/src/store.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,60 +30,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="links.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/links.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="175" lean-forward="false" selection-start-line="21" selection-start-column="141" selection-end-line="21" selection-end-column="175" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="map.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/containers/map/map.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <marker date="1500906322510" expanded="true" signature="526:597" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <marker date="1500906456799" expanded="true" signature="114:214" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="basic-user-panel.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/containers/basic-user-logined/basic-user-panel.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-logined.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/admin-logined/admin-logined.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="7" column="53" lean-forward="false" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <marker date="1501085844403" expanded="true" signature="2380:3025" ph="..." />
+                <marker date="1501085844403" expanded="true" signature="2436:2704" ph="..." />
+                <marker date="1501085844403" expanded="true" signature="2894:3025" ph="..." />
+                <marker date="1501085844403" expanded="true" signature="2939:2979" ph="..." />
+                <marker date="1501085844403" expanded="true" signature="3367:3408" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-location.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/containers/map/list-location.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -112,8 +59,20 @@
       <file leaf-file-name="admin-panel.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/containers/admin-logined/admin-panel.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+            <state relative-caret-position="459">
+              <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authorization.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/authorization.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -122,18 +81,30 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+            <state relative-caret-position="153">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/links.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="37" column="15" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="37" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic-user-logined.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/basic-user-logined/basic-user-logined.js">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="119">
+              <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -150,32 +121,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fff</find>
-      <find>eee</find>
-      <find>d20000</find>
-      <find>4db939</find>
-      <find>000</find>
-      <find>AdminLogined</find>
-      <find>authorization__module-paths-admin</find>
-      <find>authorization__module-paths-admi</find>
-      <find>authorization__module-paths-adm</find>
-      <find>authorization__module-paths-ad</find>
-      <find>authorization__module-paths-a</find>
-      <find>authorization__module-path</find>
-      <find>authorization__module-paths</find>
-      <find>Link</find>
-      <find>Redirect</find>
-      <find>h</find>
-      <find>addons</find>
-      <find>name</find>
-      <find>console.log</find>
-      <find>with</find>
-      <find>values</find>
-      <find>done</find>
-      <find>postLoginData</find>
+      <find>rea</find>
+      <find>mapR</find>
+      <find>axios</find>
+      <find>google</find>
+      <find>newMarker</find>
+      <find>marker</find>
+      <find>toast</find>
+      <find>_</find>
+      <find>googleMapURL</find>
+      <find>bindActionCreators</find>
+      <find>this.markers</find>
+      <find>props</find>
+      <find>handleMapClick</find>
+      <find>handleFormSubmit</find>
+      <find>handleMarkerRightClick</find>
+      <find>bind</find>
+      <find>authorizationReducer</find>
+      <find>State</find>
+      <find>PlacesAutocomplete</find>
+      <find>console.</find>
+      <find>latLng</find>
+      <find>event</find>
+      <find>this.state</find>
+      <find>state.</find>
       <find>markers</find>
-      <find>map</find>
-      <find>init</find>
+      <find>address</find>
+      <find>handleButtonClick</find>
+      <find>console</find>
+      <find>handleMapLoad</find>
+      <find>changeValue</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/app/components/admin-logined</dir>
@@ -197,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/app/AppReducers/authorized.js" />
         <option value="$PROJECT_DIR$/src/app/constants/Login-form-constants.js" />
         <option value="$PROJECT_DIR$/src/app/components/admin-logined/admin-logined.js" />
-        <option value="$PROJECT_DIR$/src/app/router/authorization-module/authorization.scss" />
         <option value="$PROJECT_DIR$/src/app/components/admin-logined/admin-map.js" />
         <option value="$PROJECT_DIR$/src/app/actions/admin-actions/admin-actions.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
@@ -215,14 +189,18 @@
         <option value="$PROJECT_DIR$/src/app/router/authorization-module/links.jsx" />
         <option value="$PROJECT_DIR$/src/app/containers/login-form/input-login.jsx" />
         <option value="$PROJECT_DIR$/src/app/containers/register-form/form-section-wrapper.jsx" />
-        <option value="$PROJECT_DIR$/src/app/AppReducers/authorizationReducer.js" />
         <option value="$PROJECT_DIR$/src/app/components/map/map.js" />
-        <option value="$PROJECT_DIR$/src/app/containers/admin-logined/admin-panel.jsx" />
         <option value="$PROJECT_DIR$/src/app/router/authorization-module/routes.js" />
         <option value="$PROJECT_DIR$/src/app/containers/basic-user-logined/basic-user-panel.jsx" />
-        <option value="$PROJECT_DIR$/src/app/containers/map/map.jsx" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/actions/map/map-action.js" />
+        <option value="$PROJECT_DIR$/src/app/containers/admin-logined/admin-panel.jsx" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/AppReducers/authorizationReducer.js" />
+        <option value="$PROJECT_DIR$/src/app/router/authorization-module/authorization.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/containers/map/places-autocomplete.js" />
+        <option value="$PROJECT_DIR$/src/app/containers/map/list-location.js" />
+        <option value="$PROJECT_DIR$/src/app/containers/map/map.jsx" />
       </list>
     </option>
   </component>
@@ -259,8 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -397,11 +373,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-user-logined" />
+              <option name="myItemId" value="constants" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,59 +395,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="containers" />
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="road-to-react-redux-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="road-to-react-redux-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin-logined" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="road-to-react-redux-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="road-to-react-redux-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basic-user-logined" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="road-to-react-redux-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="road-to-react-redux-app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,6 +475,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -539,7 +487,7 @@
     <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -676,12 +624,22 @@
       <workItem from="1500899968808" duration="1958000" />
       <workItem from="1500902074419" duration="1791000" />
       <workItem from="1500903880653" duration="1792000" />
-      <workItem from="1500905694213" duration="1730000" />
+      <workItem from="1500905694213" duration="1791000" />
+      <workItem from="1500907500151" duration="635000" />
+      <workItem from="1500961847188" duration="1078000" />
+      <workItem from="1500963642741" duration="1791000" />
+      <workItem from="1500965447987" duration="1794000" />
+      <workItem from="1500967261206" duration="1793000" />
+      <workItem from="1500969231167" duration="9191000" />
+      <workItem from="1500984516765" duration="8671000" />
+      <workItem from="1501052623488" duration="2710000" />
+      <workItem from="1501056704179" duration="11823000" />
+      <workItem from="1501070947582" duration="14551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69363000" />
+    <option name="totallyTimeSpent" value="123461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,13 +657,13 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14574236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299389" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881" sideWeight="0.6659514" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21503131" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945416" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2776618" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -729,30 +687,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/AppReducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -817,31 +751,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/authorization/modal-register-Form/modal-register-Form.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/authorization.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="114" column="24" lean-forward="false" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/admin-logined/admin-logined.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -856,14 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,25 +888,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/AppReducers/authorizationReducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/admin-logined/admin-map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/containers/basic-user-logined/basic-user-panel.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="425">
           <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/basic-user-logined/basic-user-logined.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/AppReducers/authorizationReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/actions/map/map-action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/links.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="37" column="15" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="37" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/authorization.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="23" lean-forward="false" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -1016,23 +995,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/containers/admin-logined/admin-panel.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="47" column="26" lean-forward="false" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/basic-user-logined/basic-user-logined.js">
+    <entry file="file://$PROJECT_DIR$/src/app/components/admin-logined/admin-logined.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1040,49 +1003,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/router/authorization-module/links.jsx">
+    <entry file="file://$PROJECT_DIR$/src/app/containers/map/list-location.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="175" lean-forward="false" selection-start-line="21" selection-start-column="141" selection-end-line="21" selection-end-column="175" />
+        <state relative-caret-position="272">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/map/places-autocomplete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="64" lean-forward="false" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/containers/admin-logined/admin-panel.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="71" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="71" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <marker date="1500906456799" expanded="true" signature="114:214" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/actions/map/map-action.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/containers/map/map.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1500906322510" expanded="true" signature="526:597" ph="..." />
+            <marker date="1501085844403" expanded="true" signature="2380:3025" ph="..." />
+            <marker date="1501085844403" expanded="true" signature="2436:2704" ph="..." />
+            <marker date="1501085844403" expanded="true" signature="2894:3025" ph="..." />
+            <marker date="1501085844403" expanded="true" signature="2939:2979" ph="..." />
+            <marker date="1501085844403" expanded="true" signature="3367:3408" ph="..." />
           </folding>
         </state>
       </provider>

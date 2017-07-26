@@ -13,6 +13,7 @@ const initialState = {
   },
 };
 
+
 export default (state = initialState, action) => {
   switch (action.type) {
 
@@ -100,7 +101,7 @@ export default (state = initialState, action) => {
     case constants.CHANGE_USER:
 
       return update(state, {
-        sers: {
+        users: {
           [action.payload.id]: {
             name : {
               $set : action.payload.newName
