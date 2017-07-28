@@ -6,19 +6,20 @@ import Map from '../map/map.jsx';
 class BasicUser extends Component {
   constructor(props) {
     super(props);
-    // this.onPress = this.onPress.bind(this); связать мой компонент с методом в теле класса который имеется -> onPress() { console.log('111')}
   }
 
   render() {
 
-    console.log(this)
+      console.log(this, 'basic user panel')
 
     const { name } = this.props.userPanel.authorizationReducer.currentAuthorized;
+
+    const registerGreeting = this.props.userPanel.authorizationReducer.currentRegister;
 
     return(
 
         <div className="authorization__module-paths-user-item">
-          <h1>Hi, {name} !</h1>
+          <h1>Hi, {registerGreeting === '' ? name : registerGreeting.name} !</h1>
 
           <Map/>
 
@@ -38,16 +39,6 @@ const mapStateToProps = (state) => {
 
   }
 
-}
+};
 
-const mapDispatchToProps = (dispatch) => {
-
-  return bindActionCreators({
-
-    // functions ...
-
-  },dispatch);
-
-}
-
-export default connect ( mapStateToProps, mapDispatchToProps ) (BasicUser);
+export default connect ( mapStateToProps ) (BasicUser);

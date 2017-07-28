@@ -4,11 +4,11 @@ import update from 'immutability-helper';
 const initialState = {
   authorized: 'default',
   currentAuthorized: '',
-  users: [], // NEW_USER пишет непосредственно в этот массив не ломая стейт вокруг ( наш - authorized: false )
+  currentRegister: '',
+  users: [],
   admin: {
     login: 'myAdmin',
     password: '1111111',
-    locations: [],
     authorized: false
   },
 };
@@ -56,16 +56,16 @@ export default (state = initialState, action) => {
 
         authorized: action.payload,
         currentAuthorized: '',
+        currentRegister: '',
         admin: { ...state.admin,
-            authorized: false
-
+            authorized: false,
         }
       });
     break;
 
     case constants.NEW_USER:
 
-      const byEmailSorting = state.users.filter(elem => elem.email === action.payload.email), // более лаконичный синтаксис записи вместо .filter((elem) => {return elem.email === action.payload.email}) если в фвп - один аргумент скобки не нужны
+      const byEmailSorting = state.users.filter(elem => elem.email === action.payload.email),
             totalEmail = byEmailSorting.map(elem => elem.email),
             emailProcessed = totalEmail.toString();
 
@@ -75,13 +75,15 @@ export default (state = initialState, action) => {
 
         users: [...state.users, action.payload],
         userWithEmail: 'Successfully!',
+        currentRegister: action.payload
 
       }) :
 
       Object.assign({}, state, {
 
-        users: [...state.users], // Object.assign({}, state, {users: [...state.users, action.payload]}) - записывает в массив стейта не ломая стейт (  authorized: false )
+        users: [...state.users],
         userWithEmail: 'This address is already busy!',
+        currentRegister: ''
 
       });
     break;

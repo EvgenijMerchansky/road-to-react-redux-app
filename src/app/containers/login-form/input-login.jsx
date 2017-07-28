@@ -26,23 +26,15 @@ class LoginInput extends Component {
           isAdmin = nextProps.loginInputState.authorizationReducer.admin.authorized;
 
           if(identAuthorized === true) {
-
             this.props.push('/user-page');
-
           }else if(isAdmin === true){
-
             this.props.push('/admin-panel');
-
           }
   }
 
   render(){
 
-      console.log(this)
-
     const { authorized } = this.props.loginInputState.authorizationReducer;
-
-      console.log(authorized)
 
     return(
       <form className="form__wrapper-login">

@@ -10,28 +10,31 @@ class Links extends Component {
 
   render(){
 
-      console.log(this)
+    const pathname = location.pathname;
+
+      // console.log(location)
 
     const { authorized } = this.props.stateLinks.authorizationReducer,
-            admin = this.props.stateLinks.authorizationReducer.admin.authorized;
+            admin = this.props.stateLinks.authorizationReducer.admin.authorized,
+            currentRegister = this.props.stateLinks.authorizationReducer.currentRegister;
 
     return (
 
       <div className="authorization__module-links">
         <Link
-          className={authorized === true ? 'authorization__module-links-default' : admin === true ? 'authorization__module-links-default' : 'authorization__module-links-active'}
+          className={authorized === true || currentRegister !== '' && pathname !== '/signup' ? 'authorization__module-links-default' : admin === true ? 'authorization__module-links-default' : 'authorization__module-links-active'}
           to="/signin">
             Sign In
         </Link>
 
         <Link
-          className={authorized === true ? 'authorization__module-links-default' : admin === true ? 'authorization__module-links-default' : 'authorization__module-links-active'}
+          className={authorized === true || currentRegister !== '' && pathname !== '/signup' ? 'authorization__module-links-default' : admin === true ? 'authorization__module-links-default' : 'authorization__module-links-active'}
           to="/signup">
             Sign Up
         </Link>
 
         <Link
-          className={authorized === true ? 'authorization__module-links-active' : admin === true ? 'authorization__module-links-active' : 'authorization__module-links-default'}
+          className={authorized === true || currentRegister !== '' && pathname !== '/signup' ? 'authorization__module-links-active' : admin === true ? 'authorization__module-links-active' : 'authorization__module-links-default'}
           onClick={() => {this.props.logOut()}}
           to="/signin">
             Sign Out

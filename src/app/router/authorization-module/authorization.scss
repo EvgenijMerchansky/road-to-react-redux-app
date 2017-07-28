@@ -28,6 +28,7 @@ $shadow-color: #000;
 
       display: block;
 
+
     }
 
     a{
@@ -64,15 +65,102 @@ $shadow-color: #000;
   &-paths{
 
     &-user{
-
-      //padding: 40px;
       height: auto;
 
-
       &-item{
-
         border-radius: 7px;
-        //background-color: $input-color;
+
+        &-list{
+          background-color: $page-color;
+
+          &-btn{
+            outline: none;
+            border: none;
+            background-color: #4db939;
+            color: #fff;
+            font-size: 20px;
+            height: 55px;
+            width: 100%;
+            cursor: pointer;
+
+            &:hover{
+
+              background-color: $input-color;
+              color: $basic-color;
+
+            }
+          }
+
+          &-input{
+            width: 40%;
+
+          }
+
+          &-address{
+
+            &-item{
+              margin: 10px;
+              padding: 20px;
+              background-color: $input-color;
+              color: $basic-color;
+              font-size: 25px;
+              border-radius: 3px;
+              box-shadow: 0px 0px 16px -7px $page-color;
+
+              h1{
+                text-align: left!important;
+
+              }
+
+              button{
+
+                margin-top: 30px;
+                outline: none;
+                border: solid 1px $input-color;
+                background-color: #4db939;
+                color: #fff;
+                font-size: 17px;
+                height: 35px;
+                width: 150px;
+                cursor: pointer;
+                border-radius: 3px;
+
+                &:hover{
+
+                  background-color: $page-color;
+                  color: $basic-color;
+                  border: solid 1px $basic-color;
+
+                }
+
+              }
+
+              &-toggle{
+                border-radius: 3px;
+                padding: 20px;
+                margin: 20px 0;
+                background-color: $input-color;
+                border: solid 10px $page-color;
+                box-shadow: 0px 0px 16px -6px $input-color;
+
+                &:hover{
+                  box-shadow: 0px 0px 16px -6px #000;
+                  background-color: #f7f7f7
+
+                }
+
+              }
+
+              &:hover{
+                box-shadow: 0px 0px 16px -7px #000;
+
+              }
+
+            }
+
+          }
+
+        }
 
         h1{
 
@@ -228,6 +316,34 @@ $shadow-color: #000;
       }
 
     }
+
+  }
+
+}
+
+#PlacesAutocomplete__root{
+  z-index: 10;
+  font-size: 20px;
+  opacity: .9;
+  outline: none;
+
+}
+
+.individual-admin-link{
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  color: $page-color;
+  background-color: $basic-color;
+  text-decoration: none;
+  outline: none;
+  border: none;
+
+  &:hover{
+
+    background-color: $input-color;
+    color: $basic-color;
 
   }
 

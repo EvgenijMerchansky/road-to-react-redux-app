@@ -13,6 +13,6 @@ const AdminLogined = (props) => {
 
   )
 
-}
+};
 
 export default AdminLogined;

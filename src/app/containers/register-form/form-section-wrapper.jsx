@@ -17,7 +17,7 @@ class Register extends Component {
           newUserData = this.props.formState.form.syncValidation.values;
           newUserData.locations = [];
 
-    this.props.getUserValues(typeof checkErrors == 'undefined' ? newUserData : null);
+    this.props.getUserValues(typeof checkErrors === 'undefined' ? newUserData : null);
 
   }
 
@@ -32,7 +32,7 @@ class Register extends Component {
           onSubmit={this.submit}
         />
         <span
-          className={this.props.formState.authorizationReducer.userWithEmail == 'Successfully!' ? 'form__register-wrapper-spanAccept' : 'form__register-wrapper-spanError'}>
+          className={this.props.formState.authorizationReducer.userWithEmail === 'Successfully!' ? 'form__register-wrapper-spanAccept' : 'form__register-wrapper-spanError'}>
           {this.props.formState.authorizationReducer.userWithEmail}
         </span>
       </div>
@@ -45,12 +45,12 @@ const mapStateToProps = (state) => {
   return {
     formState: state,
   }
-}
+};
 
 const mapDispatchToProps = (dispatch) => {
   return bindActionCreators({
     getUserValues
   },dispatch);
-}
+};
 
 export default connect(mapStateToProps,mapDispatchToProps)(Register);
